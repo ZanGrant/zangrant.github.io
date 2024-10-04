@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+body {
+  font-family: 'Jost', sans-serif;
+  background: #303030
+  url("https://i.postimg.cc/yBqzG71C/nklxvnaorl671-2.jpg?dl=1")
+  no-repeat center;
+  background-size: cover;
+  height: 100%;
+  color: white;
+}
+
+/* HANDPHONE*/
+@media (max-width: 800px) {
+  *{
+    font-size: small; 
+  }
+  #title {
+    font-size: x-large;
+  }
+  
+  #survey-form {flex-direction: column;}
+
+}
+
+/* PC */
+@media (min-width: 800px) {
+  #survey-form {
+    flex-wrap: wrap;
+  }
+}
+
+/* CSS */
+*{box-sizing: border-box;}
+img {
+  max-width: 60%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+#title,
+#description {
+  margin: 5px 20px;
+  text-align: center;
+  text-shadow: 1px 1px 10px #000;
+}
+#description {color: #C7A665;}
+
+#survey-form {
+	max-width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 1.2em;
+  border-radius: 10px;
+  background-color: rgb(0,0,0,60%);
+
+  display: flex;
+}
+
+label {
+  display: table-row;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  margin: auto 10px 10px 10px;
+  flex: 1;
+}
+
+input,
+#dropdown,
+textarea,
+#submit {
+  border-radius: 5px; padding: 8px;
+  border: 2px solid #C7A665;
+  width: 100%;
+  font-family: 'Jost', sans-serif;
+  font-size: 1em; 
+}
+
+input[type="radio"] {
+  width: 20px;
+  transform: scale(1.2);
+  accent-color: #C19D53;
+
+}
+
+textarea {
+  min-height: 150px;
+  resize: none;
+}
+#submit {
+  color: white;
+  background: #C19D53;
+}

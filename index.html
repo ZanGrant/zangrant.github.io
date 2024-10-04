@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/6076036fdb272f49688c571013f3ede1.png">
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description"><i>Get ready for your journey through the Lands Between to stand before the Elden Ring.</i></p>
+
+    <form id="survey-form" method="post">
+        
+      <div class="form-input">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required />
+      </div>
+
+      <div class="form-input">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter Your Email" required />
+      </div>
+
+      <div class="break" style="width: 100%;"></div>
+
+      <div class="form-input">
+        <label id="number-label" for="number">Age</label>
+        <input type="number" id="number" placeholder="Age" min="12" max="130" />
+      </div>
+
+      <div class="form-input">
+        <label>Gender</label>
+        <select id="dropdown" required>
+          <option name="gender" selected disabled>Select your gender</option>
+          <option value="male" name="gender">Male</option>
+          <option value="female" name="gender">Female</option>
+          <option value="prefernot" name="gender">Prefer not to say</option>
+        </select>
+      </div>
+
+      <div class="break" style="width: 100%;"></div>
+
+      <div class="form-input">
+        <label>Are you satisfied playing Elden Ring?</label>
+        <label><input type="radio" name="satisfy" value="yes"/> Absolutely Yes!</label>
+        <label><input type="radio" name="satisfy" value="no"/> No.</label>   
+        <label><input type="radio" name="satisfy" value="maybe"/> Maybe</label>    
+        <label><input type="radio" name="satisfy" value="haventplay"/> Haven't played</label>    
+      </div>
+
+      <div class="break" style="width: 100%; margin: 5px auto;"></div>
+
+      <div class="form-input">
+        <label>Any comments or suggestions?</label>
+        <textarea name="comments" placeholder="Tell us your thoughts to improve the game!"></textarea>
+      </div>
+
+      <div class="break" style="width: 100%;"></div>
+
+      <div class="form-input">
+        <button type="submit" id="submit"><b>Submit</b></button>
+      </div>
+    </form>
+  </body>
+</html>
