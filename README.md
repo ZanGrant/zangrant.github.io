@@ -18,16 +18,6 @@ Welcome to my personal portfolio website! This project showcases my skills and o
 ## 🖥️ Live Demo
 Check out the live version of the portfolio: [zangrant.github.io](#)
 
-## 📂 Project Structure
-📄 index.html # Main HTML file
-📁 css # Stylesheets
-  └── styles.css # Main CSS file
-  └── mediastyles.css # CSS for media queries
-  └── animation.css # CSS for animation
-📄 script.js # JavaScript files
-📁 assets # Images and other assets
-📄 README.md # Project documentation
-
 📧 Contact
 Feel free to reach out:
 
