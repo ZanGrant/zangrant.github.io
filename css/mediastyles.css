@@ -82,6 +82,7 @@
   .about_right {
     display: flex;
     align-items: center;
+    text-align: center;
   }
   .about-pic {
     width: 250px;
@@ -93,7 +94,10 @@
   }
   article {
     align-items: center;
+    text-align: center;
+    width: 5rem;
   }
+
   /* CONTACT */
   .contact-info-upper-container {
     flex-wrap: wrap;
@@ -105,6 +109,9 @@
 }
 
 @media screen and (max-width: 760px) {
+  section {
+    margin: 3rem 0;
+  }
   /* NAVBAR */
   .logo {
     font-size: 1.5rem;
@@ -132,6 +139,9 @@
   }
 
   /* ABOUT */
+  #about {
+    margin-top: 5rem;
+  }
   .section-container {
     flex-direction: column;
   }
@@ -141,12 +151,27 @@
   .about_right {
     display: block;
   }
+
   /* SKILLS */
   article {
     font-size: 1rem;
   }
   #skills .details-container {
     width: 100%;
+  }
+  article h3 {
+    font-size: .8rem;
+  }
+  /* PROJECTS */
+  #projects img {
+    border-radius: 2rem;
+    width: 70vw;
+    max-width: 20rem;
+    height: auto;
+  }
+  /* CONTACT */
+  #contact p {
+    font-size: 1rem;
   }
   
 }
