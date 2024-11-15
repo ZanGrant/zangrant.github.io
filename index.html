@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Marvel Grant P </title>
+  <link rel="icon" href="assets/icon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mediastyles.css">
+  <link rel="stylesheet" href="css/animation.css">
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- ICON -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- JS LIBRARY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Desktop Navbar -->
+  <nav id="desktop-nav">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  </nav>
+
+  <!-- Mobile Navbar -->
+  <nav id="mobile-nav">
+    <div class="logo"><a href="/">Portfolio.</a></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+   </nav>
+
+  <main>
+    <!-- SECTION 1: Profile -->
+    <section id="profile">
+
+      <div class="textprofile-container">
+        <div class="text-1"><p>Hello, I'm</p></div>
+        <div class="text-2"><h1>Marvel Grant Pangau</h1></div>
+        <div class="text-3">Interested in <span class="typing"></span></div>
+        
+        <div class="btn-container">
+          <button class="btn" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+          <button class="btn" onclick="window.open('https://linktr.ee/marvelgrantpangau', '_blank')">
+            My Projects
+          </button-->
+
+        </div>
+      </div>
+
+      <div class="image-container">
+        <div class="background-square"></div>
+        <img src="assets/marveltp.png" alt="Profile Picture" class="profile-pic">
+    </div>
+
+     </section>
+
+    <!-- SECTION 2: About -->
+    <section id="about">
+
+      <h1 class="title">About Me</h1>
+
+      <div class="section-container">
+        <!-- Left column -->
+        <div class="about_left">
+          <img
+            src="./assets/marvelabout.jpg"
+            alt="Marvel Grant"
+            class="about-pic"
+          />
+        </div>
+
+        <!-- Right column -->
+        <div class="about_right">
+
+          <div class="details-container">
+            <h3>Education</h3>
+            <img src="./assets/iteba.png" alt="iteba" class="icon" />
+            <p>Information Systems Undergraduate</p>
+          </div>
+
+          <div class="text-container">
+            <p>
+              I am an dedicated Information Systems student with a skill set in front-end development and database management.
+              I am passionate about bringing ideas to life through user-focused designs, efficient coding, and interactive digital skills.
+              My portfolio includes projects ranging from responsive websites and game development to UI/UX design,
+              all reflecting my commitment to creating functional and visually engaging applications.
+              I am continuously expanding my skills to stay current with industry trends and am excited to contribute to projects that blend technology with creativity.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SECTION 3: Skills -->
+    <section id="skills">
+
+      <h1 class="title">Skills</h1>
+
+      <div class="details-container">
+        <h2 class="skills-sub-title">Frontend Development</h2>
+        <div class="article-container">
+
+          <article>
+            <img src="./assets/skills/html5.png" alt="skills" class="icon" />
+            <div>
+              <h3>HTML</h3>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/skills/css3.png" alt="skills" class="icon"/>
+            <div>
+              <h3>CSS</h3>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/skills/javascript.png" alt="skills" class="icon"/>
+            <div>
+              <h3>JavaScript</h3>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/skills/jquery.png" alt="skills" class="icon"/>
+            <div>
+              <h3>jQuery</h3>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+
+      <div class="details-container">
+        <h2 class="skills-sub-title">Game Development</h2>
+        <div class="article-container">
+
+          <article>
+            <img src="./assets/skills/unity.png" alt="skills" class="icon"/>
+            <div>
+              <h3>Unity</h3>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/skills/csharp.png" alt="skills" class="icon"/>
+            <div>
+              <h3>C#</h3>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+
+      <div class="details-container">
+        <h2 class="skills-sub-title">Data Analytics</h2>
+        <div class="article-container">
+
+          <article>
+            <img src="./assets/skills/SQL.png" alt="skills" class="icon"/>
+            <div>
+              <h3>SQL</h3>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/skills/python.png" alt="skills" class="icon"/>
+            <div>
+              <h3>Python</h3>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/skills/pandas.png" alt="skills" class="icon"/>
+            <div>
+              <h3>Pandas</h3>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+
+
+    </div>
+
+    </section>
+
+    <!-- SECTION 4: Projects -->
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+
+          <div class="details-container color-container">
+            <img src="./assets/projects/project-1.png" alt="Project 1" class="project-img"/>
+            <h2 class="experience-sub-title project-title">Simple Login UI</h2>
+              <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://www.figma.com/proto/NdmVkjYyv3jHjbZVzeSVnU/Magang?node-id=9-10&node-type=frame&t=vofRHeBHJWA3n26R-0&scaling=scale-down&content-scaling=fixed&page-id=9%3A2&starting-point-node-id=9%3A10', '_blank')">
+                Live Demo
+              </button>
+
+          </div>
+
+          <div class="details-container color-container">
+            <img src="./assets/projects/project-2.png" alt="Project 2" class="project-img"/>
+            <h2 class="experience-sub-title project-title">Burung Bird (PC Only)</h2>
+              <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://zangrant.itch.io/burung-bird', '_blank')">
+                Live Demo
+              </button>
+          </div>
+          
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Other Projects</h2>
+              <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://linktr.ee/marvelgrantpangau', '_blank')">
+                Linktr.ee
+              </button>
+          </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: CONTACT -->
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <i class="fa-solid fa-envelope"></i>
+          <p><a href="mailto:mgrantpangau@gmail.com?Subject=Hello" target="_top">
+            mgrantpangau@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <i class="fa-brands fa-linkedin"></i>
+          <p><a onclick="window.open('https://www.linkedin.com/in/marvelgrantpangau/', '_blank')">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Made with <i class="fa-regular fa-heart"></i> by Marvel Grant Pangau / ZanGrant</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
