@@ -112,6 +112,9 @@
   section {
     margin: 3rem 0;
   }
+  nav {
+    height: 10vh;
+  }
   /* NAVBAR */
   .logo {
     font-size: 1.5rem;
@@ -125,7 +128,7 @@
 
   /* PROFILE */
   #profile {
-    margin-top: 1rem;
+    padding-top: 3vh;
   }
   .background-square {
     width: 200px;
@@ -142,9 +145,6 @@
   }
 
   /* ABOUT */
-  #about {
-    margin-top: 5rem;
-  }
   .section-container {
     flex-direction: column;
   }

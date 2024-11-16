@@ -73,8 +73,8 @@ a:hover {
 
 .menu-links {
   position: absolute;
-  top: 120%;
-  right: 0;
+  top: 150%;
+  right: -90%;
   background-color: white;
   width: fit-content;
   max-height: 0;
