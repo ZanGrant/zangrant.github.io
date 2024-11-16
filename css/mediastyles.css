@@ -124,6 +124,9 @@
   .menu-links li a{font-size: 1rem;}
 
   /* PROFILE */
+  #profile {
+    margin-top: 1rem;
+  }
   .background-square {
     width: 200px;
     height: 200px;
