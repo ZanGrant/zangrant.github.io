@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 760px) {
   section {
-    margin: 3rem 0;
+    margin: 3vw 0 3rem 0;
   }
   nav {
     height: 10vh;
