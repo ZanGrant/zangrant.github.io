@@ -292,7 +292,6 @@ h1 {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
 }
 .article-container {
   display: flex;
@@ -348,7 +347,6 @@ article .icon {
 
 .project-title {
   font-size: 20px;
-  margin: 2rem 0;
   color: rgb(85, 85, 85);
 }
 
