@@ -7,7 +7,7 @@ function toggleMenu() {
 
 $(document).ready(function () {
     // animation Script for display
-    const animationScript = ["Web Development", "UI/UX Design", "Game Development", "Data Analytics"];
+    const animationScript = ["Web Development", "UI/UX Design", "Game Development","Programming"];
 
     // Typing animation script
     new Typed(".typing", {
