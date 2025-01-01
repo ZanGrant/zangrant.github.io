@@ -21,6 +21,6 @@ Check out the live version of the portfolio: [zangrant.github.io](#)
 📧 Contact
 Feel free to reach out:
 
-Email: mgrantpangau@gmail.com
-LinkedIn: Marvel Grant Pangau
-GitHub: ZanGrant
+- Email: mgrantpangau@gmail.com
+- LinkedIn: Marvel Grant Pangau
+- GitHub: ZanGrant
