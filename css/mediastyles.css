@@ -1,28 +1,22 @@
 @media screen and (min-width: 1100px) {
-
-  .background-square {
-    width: 24vw;
-    height: 24vw;
+  /* PROFILE */
+  .profile-background-square {
+    width: 320px; height: 320px;
   }
-
-  .profile-pic {
-    height: 30vw;
+  .profile-picture-image {
+    height: auto; width: 320px !important;
   }
-
-  .text-2 h1 {
-    transform: translateX(-3px);
-  }
-
-  #contact,
-  #projects {
-    height: fit-content;
+  .btn:nth-of-type(2) {
+    margin-left: 1rem;
   }
 }
 
 @media screen and (max-width: 1100px) {
-  /* SECTION */
-  h1 {
-    font-size: 32px;
+  h1, .logo {
+    font-size: var(--font-size-large);
+  }
+  .flex-wrapper {
+    padding: 0 2rem 10vh 2rem;
   }
   /* NAVBAR */
   #desktop-nav {
@@ -32,148 +26,129 @@
     display: flex;
   }
   /* PROFILE */
-  #profile {
-    display: flex;
-    justify-content: center;
-    flex-direction :column-reverse;
-    gap: 2rem !important;
-    
+  #profile .flex-wrapper {
+    height: calc(50vh + 25rem);
+    flex-direction: column-reverse;
+    gap: 2vh;
   }
-
-  .background-square {
-    width: 250px;
-    height: 250px;
+  .image-container {
+    height: fit-content; align-items: end;
   }
-  .profile-pic {
-    height: 300px;
+  .profile-background-square {
+    width: 16rem;
+    height: 16rem;
   }
-  .textprofile-container {
-    align-self: center;
+  .profile-picture-image {
+    width: 16rem !important;
+    height: auto;
+  }
+  .text-container {
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
   }
   .text-1, .text-3 {
-    font-size: 1.5rem;
-  }
-  .text-2 h1 {
-    font-size: 2rem;
-  }
-  .text-3 {
-    text-align: center;
-    margin: 15px 0 30px 0;
-    display: block;
+    font-size: var(--font-size-regular)
   }
   .typing::before {
     content: "\A";
     white-space: pre; 
   }
-  .btn-container { 
-  justify-content: center;
-  }  
-
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
   /* ABOUT */
-  .section-container {
+  .column-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-right {
+    gap: 2rem;
+  }
+  /* PROJECTS */
+  #project-cards-container {
     flex-direction: column;
   }
-  .about_left,
-  .about_right {
-    flex: 0 0 100%;
+  .project-card {
+    width: 100%;
+    padding: 1rem;
   }
-  .about_right {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  .about-pic {
-    width: 250px;
-    border-radius: 1rem;
-  }
-  /* SKILLS */
-  #skills .details-container {
-    margin-top: 2rem;
-  }
-  article {
-    align-items: center;
-    text-align: center;
-    width: 5rem;
-  }
-
   /* CONTACT */
-  .contact-info-upper-container {
+  .contact-info-container {
     flex-wrap: wrap;
   }
-  .contact-info-container {
+  .contact-info {
     width: 100%;
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 760px) {
-  section {
-    margin-bottom: 5vh;
-    padding-top: 10vh;
-    height: fit-content;
+  h1 {
+    margin: 0;
   }
-  nav {
-    height: 10vh;
-  }
-  /* NAVBAR */
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .menu-links li a{font-size: 1rem;}
-
   /* PROFILE */
-  .background-square {
-    width: 200px;
-    height: 200px;
-  }
-  .profile-pic {
-    height: 250px;
-  }
-  .text-2 h1 {
-    font-size: 2rem;
-  }
-  .text-1, .text-3 {
-    font-size: 1rem;;
-  }
+  #profile .flex-wrapper {
+    height: calc(40vh + 30rem);
+    padding-top: 10vh;
 
+  }
+  .image-container {
+    margin: 2rem 0;
+  }
+  .profile-background-square {
+    width: 12rem;
+    height: 12rem;
+  }
+  .profile-picture-image {
+    width: 12rem !important;
+    height: auto;
+  }
   /* ABOUT */
-  .section-container {
-    flex-direction: column;
+  .about-left img{
+    height: auto; width: 12rem !important;
   }
-  .about-pic {
-    width: 250px;
+  .about-right .details-container {
+    gap: .5rem;
   }
-  .about_right {
-    display: block;
+  .about-right .details-container img {
+    width: 10rem;
   }
-
   /* SKILLS */
-  article {
-    font-size: 1rem;
-  }
-  #skills .details-container {
+  .skill-card {
     width: 100%;
-  }
-  article h3 {
-    font-size: .8rem;
   }
   /* PROJECTS */
   #projects img {
     border-radius: 2rem;
-    width: 70vw;
+    width: 64vw;
     max-width: 20rem;
     height: auto;
   }
   /* CONTACT */
-  #contact p {
-    font-size: 1rem;
+  .contact-info-container {
+    width: 100%;
+    padding: 0;
   }
-  
+  .contact-info{
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .contact-info p {
+    font-size: larger;
+    cursor: pointer;
+  }
+  .contact-info i {
+    cursor: default;
+    width: 2rem;
+    font-size: var(--font-size-regular);
+    text-align: center;
+  }
+  #contact p {
+    font-size: var(--font-size-small);
+  }
 }
