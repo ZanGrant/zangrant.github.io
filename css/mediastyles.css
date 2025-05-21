@@ -1,10 +1,10 @@
 @media screen and (min-width: 1100px) {
   /* PROFILE */
   .profile-background-square {
-    width: 320px; height: 320px;
+    width: 21rem; height: 21rem;
   }
   .profile-picture-image {
-    height: auto; width: 320px !important;
+    height: auto; width: 21rem !important;
   }
   .btn:nth-of-type(2) {
     margin-left: 1rem;
@@ -16,7 +16,7 @@
     font-size: var(--font-size-large);
   }
   .flex-wrapper {
-    padding: 0 2rem 10vh 2rem;
+    padding: 0 4rem 10vh 4rem;
   }
   /* NAVBAR */
   #desktop-nav {
@@ -69,6 +69,10 @@
   .about-right {
     gap: 2rem;
   }
+  /* SKILLS */
+  .article-container article {
+    width: 6rem;
+  }
   /* PROJECTS */
   #project-cards-container {
     flex-direction: column;
@@ -90,6 +94,9 @@
 @media screen and (max-width: 760px) {
   h1 {
     margin: 0;
+  }
+  .flex-wrapper {
+    padding: 0 2rem 10vh 2rem;
   }
   /* PROFILE */
   #profile .flex-wrapper {
@@ -121,6 +128,10 @@
   .skill-card {
     width: 100%;
   }
+  .article-container article {
+    width: 5rem;
+    font-size: smaller;
+  }
   /* PROJECTS */
   #projects img {
     border-radius: 2rem;
@@ -149,5 +160,13 @@
   }
   #contact p {
     font-size: var(--font-size-small);
+  }
+}
+@media screen and (max-width: 340px) {
+  .flex-wrapper {
+    padding: 0 1rem 10vh 1rem;
+  }
+  .menu-links {
+    right: -40%;
   }
 }

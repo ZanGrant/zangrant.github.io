@@ -1,7 +1,7 @@
 :root {
   --color-black: black;
   --color-white: #FEFEFE;
-  --color-white-2: #fcfcfc;
+  --color-white-2: #FAFAFA;
   --color-gray: rgb(40, 40, 40);
   --color-light-gray: rgb(85, 85, 85);
 
@@ -33,7 +33,7 @@ nav, section {
   align-items: center;
   max-width: 1600px;
   margin: auto; height: 100%;
-  padding: 0 4rem;
+  padding: 0 6rem;
   flex: auto;
   padding-bottom: 20vh;
   /* recheck these */
@@ -172,21 +172,19 @@ h2 {
 .image-container {
   display: flex;
   position: relative;
-  justify-content: end;
+  justify-content: center;
   flex: 1;
 }
 .profile-background-square {
   position: absolute;
   z-index: 1;
   bottom: 0;
-  width: 18rem; height: 18rem;
   border-radius: 20px;
   background-color: var(--color-gray)
 }
 .profile-picture-image {
   display: block;
   z-index: 2;
-  height: auto; width: 18rem !important;
 }
 /* Profile Button */
 .button-container {
@@ -213,7 +211,7 @@ h2 {
 }
 .column-container {
   display: flex;
-  gap: 2rem;
+  gap: 6rem;
 }
 
 /* Left column */
