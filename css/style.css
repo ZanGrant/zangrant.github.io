@@ -31,7 +31,7 @@ nav, section {
 .flex-wrapper {
   display: flex;
   align-items: center;
-  max-width: 1600px;
+  max-width: 1400px;
   margin: auto; height: 100%;
   padding: 0 6rem;
   flex: auto;
@@ -240,6 +240,9 @@ h2 {
 .about-right .details-container img {
   width: 16rem;
 }
+.about-right .text-container p {
+  text-align: justify;
+}
 /* --Section: SKILLS-- */
 #skills .title::before {
   content: "Explore My";
@@ -326,14 +329,20 @@ h2 {
   gap: 1rem;
   margin: 1rem;
 }
-.contact-info p {
+.contact-info a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.contact-info a p {
   font-size: larger;
   cursor: pointer;
 }
-.contact-info i {
+.contact-info a i {
   cursor: default;
   width: 2rem;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-medium);
   text-align: center;
 }
 /* FOOTER */
