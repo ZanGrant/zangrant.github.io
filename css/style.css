@@ -105,7 +105,7 @@ p {
 }
 .menu-links li {
   list-style: none;
-  padding: 15px 20px;
+  padding: 1rem 1.2rem;
   font-size: var(--font-size-regular);
 }
 .menu-links li a {
@@ -115,7 +115,7 @@ p {
   text-decoration: none;
 }
 .menu-links.open {
-  max-height: 320px;
+  max-height: 20rem;
   opacity: 1;
 }
 /* >>SECTION<< */
@@ -256,7 +256,7 @@ h2 {
   flex-wrap: wrap;
   border: var(--color-light-gray) 0.1rem solid;
   border-radius: 2rem;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 .article-container {
   display: flex;
@@ -266,7 +266,7 @@ h2 {
   justify-content: space-around;
 }
 .article-container article {
-  width: 8rem;
+  width: 6rem;
   text-align: center;
 }
 .article-container article .icon {
