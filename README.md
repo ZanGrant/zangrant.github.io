@@ -10,7 +10,7 @@ Welcome to my personal portfolio website! This project showcases my skills and o
 ## 🖥️ Live Demo
 Check out the live version of the portfolio: [zangrant.github.io](https://zangrant.github.io)
 
-📧 Contact
+## 📧 Contact
 Feel free to reach out:
 
 - Email: mgrantpangau@gmail.com
